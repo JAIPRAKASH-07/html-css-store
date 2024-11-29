@@ -1,0 +1,65 @@
+
+### **HTML Questions (15 Questions)**
+
+1. **What are the new features introduced in HTML5?**
+2. Explain the difference between `<section>`, `<article>`, and `<div>`.
+3. What is the purpose of the `<meta>` tag in HTML?
+4. What are the semantic elements in HTML? Why should we use them?
+5. Explain the difference between `id` and `class` attributes in HTML.
+6. What is the difference between `localStorage` and `sessionStorage`?
+7. How do you embed multimedia (audio and video) in HTML?
+8. What is the purpose of the `data-*` attribute in HTML5?
+9. How can you optimize your HTML for better SEO?
+10. What is the difference between `<iframe>` and `<embed>`?
+11. How would you create a form in HTML that supports file uploads?
+12. What is the purpose of the `defer` and `async` attributes in `<script>` tags?
+13. How can you use the `<picture>` tag for responsive images?
+14. What is the difference between the `<b>` and `<strong>` tags?
+15. What are the global attributes in HTML? Name a few.
+
+
+
+### **CSS Questions (15 Questions)**
+
+1. What is the difference between inline, internal, and external CSS?
+2. Explain the box model in CSS and its components.
+3. How does `z-index` work in CSS?
+4. What is the difference between relative, absolute, fixed, and sticky positioning?
+5. How can you create a CSS Grid layout? Provide an example.
+6. What is the difference between `em`, `rem`, `%`, and `px` units in CSS?
+7. How would you make a website responsive?
+8. What is the difference between `inline`, `block`, and `inline-block` elements?
+9. Explain the concept of pseudo-classes and pseudo-elements. Provide examples.
+10. How can you implement animations in CSS? Provide an example.
+11. What is the difference between `transitions` and `animations` in CSS?
+12. What are CSS variables, and how do you use them?
+13. How does Flexbox work? What are its main properties?
+14. What are media queries in CSS? Provide a use case.
+15. What is the purpose of the `clip-path` property in CSS?
+
+---
+
+### **JavaScript Questions (20 Questions)**
+
+1. What is the difference between `let`, `const`, and `var` in JavaScript?
+2. Explain the concept of closures in JavaScript.
+3. What is the difference between `==` and `===` in JavaScript?
+4. What are Promises, and how are they different from callbacks?
+5. Explain the concept of `this` in JavaScript with examples.
+6. What are JavaScript modules, and how do you use them?
+7. What is the event loop in JavaScript, and how does it work?
+8. What are the different types of scopes in JavaScript?
+9. How does the `debounce` function work? Provide an example.
+10. What is the difference between synchronous and asynchronous JavaScript?
+11. What is the purpose of the `bind`, `call`, and `apply` methods in JavaScript?
+12. Explain the difference between deep cloning and shallow cloning in JavaScript.
+13. How do you handle errors in JavaScript using `try-catch` blocks?
+14. What is the difference between `forEach` and `map` in JavaScript?
+15. What is the purpose of `async/await` in JavaScript?
+16. What is hoisting in JavaScript, and how does it work?
+17. Explain how `setTimeout` and `setInterval` work in JavaScript.
+18. What are JavaScript Prototypes, and how do they work?
+19. What are Higher-Order Functions in JavaScript? Provide examples.
+20. Explain how `fetch` works for API calls in JavaScript.
+
+-

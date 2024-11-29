@@ -1,0 +1,163 @@
+<head>
+    <title>sign Form</title>
+    <style>
+      body{  
+      margin: 0;
+      padding: 0;
+  }
+  *{
+    font-family:'Times New Roman', Times, serif;
+  }
+  main{
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  }
+  form{
+      border-radius: 10px;
+      width: 600px;
+      padding: 25px;
+      box-shadow: 2px 2px 8px 2px yellowgreen;
+  }
+  .fieldDivs{
+      display: flex;
+      justify-content: space-between;
+      margin: 10px 0;
+      padding: 5px;
+      align-items: center;
+  }
+   
+  label{
+      width: 30%;
+      font-size: 18px;
+      font-weight: 600;
+  }
+  .inputFields{
+      width: 70%;
+      border: 1px solid rgba(0, 0, 0, 0.25);
+      padding: 10px 15px;
+      border-radius: 10px;
+      margin: 0 10px;
+      font-weight: 500;
+      font-size: 16px;
+  }
+  .genderDiv{
+      width: 70%;
+      padding: 2px;
+      border-radius: 20px;
+      margin: 10 px 10px;
+  }
+  .addressDiv .inputFields{
+      width: 100%;
+      border: 1px solid yellowgreen;
+      padding: 10px 15px;
+      border-radius: 10px;
+      margin: 0 10px;
+  }
+  .inputFields:focus{
+     
+      border-color:  rgba(234, 20, 20, 0.741);
+      outline: none;
+  }
+  form a{
+      text-decoration:none;
+  }
+  form a:hover{
+      color: gold;
+  }
+  button{
+      border: none;
+      padding: 10px 25px ;
+      border-radius: 5px;
+      background-color: rgba(0, 0, 255, 0.75);
+      color: rgba(255, 255, 255, 0.86);
+  }
+  button:hover{
+      background-color: blue;
+      color: white;
+  }
+  .btns{
+      text-align: left;
+  }
+    </style>
+  </head>
+  <body>
+    <main>
+        <form>
+                <h1 style="text-align: center;">Sign page</h1>
+                <div class="fieldDivs" >
+                <label for=" firstname"> FirstName:</label>
+                <input type="firstname" id="firstname"  class="inputFields" name="firstname" placeholder="eg: Jai" />
+                </div>              
+                <div class="fieldDivs" >
+                <label for=" lastname"> lastName:</label>
+                <input type="lastname"  class="inputFields" id="lastname" name="lastname" placeholder="eg:prakash" />
+                </div> 
+                <div class="fieldDivs" >
+                <label for=" fathername"> FatherName:</label>
+                <input type="fathername"  class="inputFields" id="fathername" name="fathername" placeholder="eg:ram yadav" />
+                </div> 
+                <div class="fieldDivs" >
+                    <label for=" Mothername"> MotherName:</label>
+                    <input type="Mothername"  class="inputFields" id="Mothername" name="Mothername" placeholder="eg:rama yadav" />
+                    </div> 
+                <div class="fieldDivs" >
+                <label for=" phoneno"> phone Number:</label>
+                <input type="number"  class="inputFields" id="phoneno" name="phoneno" placeholder="eg:9876543210" />
+                </div> 
+                <div class="fieldDivs" >
+                <label for="email"> Email:</label>
+                <input type="email"  class="inputFields" id="email" name="email" placeholder="eg: anil@gmil.co" />
+                </div>              
+               <div class="fieldDivs"  >
+                <label for="password"> Password:</label>
+                <input type="password"  class="inputFields" id="password" name="password" placeholder="password"/> 
+              </div>
+              <div class="addressDiv">
+                <label for="addressDiv"> Address:</label>
+                <table>
+                     <thead>
+                       <tr>
+                          <th><input type="text"  class="inputFields" id ="flat" name="text" placeholder="flat no." ></th>
+                          <th><input type="text" class="inputFields"  id ="street" name="text" placeholder="street" ></th>
+                          <th><input type="text"class="inputFields"   id ="town" name="text" placeholder="town" ></th>
+                       <tr>
+                        <th><input type="text" class="inputFields" id ="dist" name="text" placeholder="dist." ></th>
+                        <th><input type="text" class="inputFields" id ="state" name="text"placeholder="state" ></th>
+                        <th><input type="text"class="inputFields" id ="cont" name="text" placeholder="cont" ></th>
+                      </tr>
+                    </thead>
+                </table> 
+              </div>
+               <div class="genderDiv"  >
+                <label for="gender"> Gender:</label>
+                <input type="radio" name="gender" value="male"> Male
+                <input type="radio" name="gender" value="female"> Female
+               </div>
+               <div class="fieldDivs">
+                <label>Education</label>
+                <select class="inputFields">
+                      <option value="">--select--</option>
+                      <option value="postgraduate">postgraduate 1level</option>
+                      <option value="poatgraduate">post graduate 2level</option>
+                      <option value="poatgraduate">post graduate 3level</option>
+                      <option value="undergraduate">undergraduate 1level</option>
+                      <option value="undergraduate">undergraduate 2evel</option>
+                      <option value="undergraduate">undergraduate 3level</option>
+                      </select>
+                      </div>
+               <div class="fieldDivs">
+                
+                  <p><a href="https://search.app.goo.gl/ny5auyH">forget password</a> </p> 
+                   <p><a href="F:\complete web developer\html\form.html">go to login page</p>
+                </div>
+               <div class="btns">
+                <button type= "submit" onclick="alert('hello')"> Submit </button> 
+                 <button type= "reset" > Reset </button>
+           </div>
+        </form>
+  
+    </main>
+  </body>

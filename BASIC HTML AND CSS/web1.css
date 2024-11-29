@@ -1,0 +1,453 @@
+  /* CSS styles can be added here */
+        /*adding style on header and nav*/
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+       
+        header{
+            margin: 10px;
+            padding: 20px;
+            text-align: end;
+            margin-right: 20px;
+            background-color: rgb(19, 19, 31);
+            padding-right: 12px;
+          }
+          nav{
+            padding: 15px;
+            text-align: end;
+            margin-right: 20px;
+            padding-right: 12px;
+          }
+         header a {
+            margin: 10px;
+            text-decoration: none;
+            padding: 5px; 
+            color:white;
+         }
+         nav a{
+            margin: 10px;
+            text-decoration: none;
+            padding: 15px; 
+            color:rgb(1, 1, 16);
+          }
+          
+        a:hover{
+            text-decoration:underline;  
+         }   
+        .navbutn{
+            background-color: blue;
+            padding: 13px;
+            color: white;
+            border-radius: 15px;
+        } 
+        .navbutn:hover{
+            box-shadow: 1px 1px 2px 1px blue;
+        }
+        /* end  styles on header and nav */
+        /*  Add the style on main  */
+        /* style of first section   */ 
+        .firstbox{
+            display: flex;
+            background-color:#c2d8ea;
+            font-size: 18px;
+            width: 100%;
+            display: flex;
+            text-align: left;
+            justify-content: space-evenly;
+        }
+       .des{
+            width: 35%;
+            padding:100px;
+            justify-content: center;
+            display: flex;
+         }
+        
+       h1{
+        font-size: 50px;
+        color: rgb(3, 3, 88);
+      }
+      span{
+        text-align: left; 
+      }
+      p{
+        color: rgb(3, 3, 88);
+        
+        text-align: left; 
+        justify-content: center;
+      }
+        
+       .pricebtn{
+        display: flex;
+        justify-content: center;
+       }
+       .fistbutn{
+        background-color: rgba(39, 39, 143, 0.619);
+        justify-content: center;
+        border-radius: 35px;
+       padding: 10px 20px;
+       margin: 10px;
+       color: white;
+       border: none;
+       font-size: 18px;
+       }
+       .fistbutn:hover{
+        box-shadow: 2px 2px 8px 2px rgba(21, 21, 114, 0.619);
+        color: antiquewhite;
+        
+       }
+       .videodiv{
+       
+        padding: 100px;
+        width: 50%;
+    }
+        .vdiv{
+            border: 10px solid whitesmoke;
+        }
+       
+    /* end of style of first section  */ 
+    /*   add the style on second box */  
+    .secondbox{
+            text-align: center;
+            padding: 70px 180px;
+          
+            background-color: rgba(59, 59, 153, 0.619);
+        justify-content: center;
+            
+        }
+        .secondtitle{
+            
+            color: white;
+        }
+        .secondbutn{   
+        border-radius: 35px;
+       padding: 20px 30px;
+       margin:15px 20px 18px 20px;
+       color: white;
+       border: none;
+       font-size: 18px;
+        }
+       .secondbutn:hover{
+        box-shadow: 2px 2px 8px 2px rgba(21, 21, 114, 0.619);
+        background-color: antiquewhite;
+        color: blue;
+       }
+     .seconddiv{
+        display: flex;
+        color: white;
+        border: 2px 2px 2px 2px black;
+        box-shadow: 2px 2ppx 4px 2px white;
+     }
+     .textvideobox{
+        border-radius: 20px;
+           background-color: white;
+            font-size: 18px;
+            width: 100%;
+            display: flex;
+            
+            text-align: justify;
+            justify-content: space-evenly;
+        }
+       .des{
+        width: 35%;
+        /* background-color: red; */
+        padding: 20px 10px;
+    
+       justify-content: center;
+        display: flex;
+       }
+        
+       h1{
+        font-size: 38px;
+        color: rgb(3, 3, 88);
+      }
+      span{
+        text-align: left; 
+      }
+      p{
+        color: rgb(3, 3, 88);
+        /* padding-left:10px; */
+        text-align: left; 
+        justify-content: center;
+      }
+        
+       .pricebtn{
+        display: flex;
+        justify-content: center;
+       }
+       button{
+        background-color: rgba(21, 21, 114, 0.619);
+        border-radius: 35px;
+       padding: 10px 20px;
+       margin: 10px;
+       color: white;
+       border: none;
+       font-size: 18px;
+       }
+       button:hover{
+        box-shadow: 2px 2px 8px 2px rgba(21, 21, 114, 0.619);
+        color: white;
+        
+       }
+       .videodiv{
+        padding: 50px;
+        width: 40%;
+       }
+     /* end the style of second */ 
+    /* adding third style on box */
+    .boxthird{
+        text-align: center; 
+    }
+    .container{
+            display: flex;
+            /* padding: 20px 40px; */
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+            background-color:#003c6e;
+        }
+      
+        .containerleft{
+            width: 40%;
+           margin: 0px;
+           padding: 20px;
+
+        }
+       .containerleftrowone{
+        background-color: #003c6e;
+        display: flex;
+        justify-content:space-evenly;
+        border: 1px solid black;
+        padding: 0;
+        overflow: hidden;
+        border-radius: 10px;
+        height: 200px;
+       }
+       .containerleftrowtwo{
+        margin-top: 20px;
+        display: flex;
+        justify-content:space-between;
+       }
+       .first{
+        display: grid;
+        flex-direction: column;        
+        justify-content: left;
+        align-items: center;
+        padding: 25px;
+        color: white;
+        width: 45%;
+       }
+       .firstimg{
+        padding-bottom: 0px;
+        padding: 0px;
+        margin: 0px;
+        width: 350px;
+        overflow: hidden;
+        
+       }
+       .first h2{
+         font-size: 20px;
+       }
+       .containerleftrowone:hover img{
+         
+        transform: scale(1.2);
+        overflow: hidden;
+    }
+       
+       .second ,.second-d{
+        border: 4px solid rgb(66, 1, 150);
+        padding: 10px;
+        width: 40%;
+        border-radius: 10px;
+        color: white;
+        background-color: rgb(97, 97, 222);
+        
+       }
+      /* end the style of third section */ 
+    /* adding fourth section style on box */
+    .fourthbox{
+            padding: 20px;
+            margin: 0px;
+            background: #a89fc699;
+        }
+        .divtextpho{
+            background: #fff;
+            /* padding: 70px 70px; */
+            margin: 20px 290px;
+            border-radius: 20px;
+            overflow: hidden;
+            justify-content: center;  
+        }
+        .title{
+            display: flex;
+            justify-content: center;
+           font-size:28px ;
+            color:#003c6e;
+        }
+        .textpara{
+             display: flex;
+             flex-direction: column;
+            padding:30px 70px;
+             
+            justify-content: center;
+            text-align: center;  
+        }
+
+        
+        .textvideo{
+            display: flex; 
+
+         background-color: blue;
+            align-items: flex-start;
+            height: 200px;
+        }
+        .photo{
+width: 20%;
+
+        }
+         .photo img{
+           justify-content: left;
+            width: 300px;
+            height: 300px;
+             border-radius: 500px;
+position:static;           
+margin-top: -60px;
+margin-left: -60px;
+
+        }
+        .textdec{
+           justify-content: center;
+           align-items: center;
+           color: #fff;
+           display: flex;
+           height: 200px;
+width: 80%;
+           /* padding-left: 90px; */
+        }
+
+            /* end the style of fourth section */ 
+    /* adding fiveth section style on box */
+           
+ .imgContainer{
+     display:flex;                  
+      }
+                 
+ .imgbox{
+     margin: 20px;
+     border: 2px solid black;
+     justify-content: center;
+     border-radius: 20px;
+     text-align: center;
+     }
+.imgDiv{
+    background-image: url(./A.jpg);
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    background-size:cover;
+    background-position: center;
+    width: 100%;
+    height: 300px;
+}
+.imgDec{
+    padding: 20px;
+
+}
+.imgDivA{
+    background-image: url(./download.jpg);
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    background-size:cover;
+    background-position: center;
+    width: 100%;
+    height: 300px;
+}
+.imgDecA{
+    padding: 20px;
+
+}
+.imgDivB{
+    background-image: url(./abc.jpg);
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    background-size:cover;
+    background-position: center;
+    width: 100%;
+    height: 300px;
+}
+.imgDecB{
+    padding: 20px;
+
+}
+   /* end the style of fiveth section */ 
+    /* adding sixth section style on box */
+    .sixth{
+            display:flex;
+            width: 80%;   
+            margin-top: 200px;
+            margin-left: 150px;
+            
+        } 
+          .w-50{
+            width: 50%;  
+         }
+         .w-30{
+            width: 30%;  
+         }
+         .butn{
+            border-radius: 10px;
+            background-color: rgb(0, 0, 256);
+            color: white; 
+             font-size: 30px;
+         }
+         .butn:hover{
+            color: rgb(70, 162, 142);
+            font-size: 31px;
+         }
+        .bg-img{   
+            background-image: url("./abc.jpg");
+            background-repeat: no-repeat;
+            background-position:center;
+            background-color: white;
+            
+            background-size:1100px;
+            padding: 5%;
+        }
+       .bg-text{
+            color: rgb(32, 13, 152);
+            background-color: #cce2f5;;
+            font-size:20px;
+            text-align: center;
+            justify-content:center;
+            padding: 5px 5px 6px 6px;
+        }
+ /* end the style of sixth section */ 
+    /* adding footer section style on box */
+    .logodiv{
+        margin-top: 5rem;
+        justify-content: flex-start;
+        margin-left: 7rem;
+    }
+
+     .hello {
+        display: flex;
+        font-size: 1rem;
+        justify-content: space-evenly;
+        text-align: justify;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        margin-top: 3rem;
+        font-weight: 400;
+        color: rgb(125, 125, 149);
+
+       
+     }
+     ul li{
+        margin: 2px;
+        padding: 8px;
+     }
+     .footer img{
+        width: 50px;
+        height: 20px;
+        margin-top: 100px;
+     }
+     /* end the style of footer */ 

@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Page</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <style>
+          @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+   body{
+     display: flex;
+   background-color:whitesmoke;
+   font-size: 15px;
+   
+   }
+          main{
+        border: 3px solid whitesmoke;
+        border-radius: 10px;
+        display: flex;
+        width: 80%;  
+        height: 650px; 
+        box-shadow: 2px 2px 4px 2px whitesmoke;
+        background-color: white;
+    }
+    .w-30{
+        width: 14%;
+    }
+    .w-70{
+          width: 86%;
+    }
+    .margindiv{
+        justify-content: space-between;
+        padding-left: 0px;
+    }
+    .butn{
+     background-color: blue;
+     color: white;
+     font-size: 13px;
+     margin-top: 25px;
+     padding: 8px;
+     /* width: 130px; */
+     border-radius: 4px;
+     border: 0cap;
+    }
+    .itdiv{
+        text-decoration: none;
+        color: black;
+        padding-bottom: 10px;
+       
+    }
+   
+    .itdivA{
+         padding-bottom: 10px; 
+        color: black;
+        overflow: hidden;
+       
+    }
+   .narbar{
+    margin-left: 25px;
+    border-right:6px solid whitesmoke;
+   
+   }
+    .textsection{
+        margin-left: 0px;
+       
+        margin-top: 25px;
+       border-radius: 4px;  
+       background-color: white;
+      
+    } 
+    .texticondiv{
+        margin-top: 15px;
+    }
+    .textcontent{
+        background-color: whitesmoke;
+        justify-content: space-between;
+    } 
+    .searchbox{
+        padding-left: 20px;
+        display: flex;
+    }
+    .search{
+        width: 100%;
+        border: 0;
+        height: 21px;
+        padding: 10px;
+         border-bottom: 3px solid whitesmoke; 
+        background-color:white;
+    }
+    .textli{
+        margin-bottom: 2px;
+        background-color: white;
+        font-size: 15px;
+       margin-left: 0px;
+        padding-bottom: 10px;
+       padding-left: 15px;
+       padding-top: 10px;
+        justify-content: space-between; 
+        display: flex;
+    }
+     ul, li {
+        padding-left: 0%;
+        margin-left: 0%;
+    }
+    .the{
+           justify-content: start;
+    }
+    .theA{
+        justify-content: center;
+        padding-right: 15px;
+    }
+    .btcl{
+        border-radius: 50px;
+       
+        border: 0cap;
+    }
+    
+    #medium{
+        color: green;
+    }
+    #high{
+    color: pink;
+   
+    }
+   
+    #low{ color: rgb(80, 80, 238);}
+    #blocked{ color:rgb(107, 107, 194)
+    
+    }
+    #update{ color:deepskyblue;}
+    @media screen and (max-width: 720px) {
+  body {
+    background-color: crimson;
+  }
+  .butn span{
+    display: none;
+  }
+  .butn{
+     background-color: blue;
+     color: white;
+     font-size: 10px;
+     margin-top: 25px;
+     padding: 8px;
+     width: 30px;
+     border-radius: 4px;
+     border: 0;
+    }
+}
+    </style>
+</head>
+<body>
+    <main>  
+        <section class="narbar w-30" >
+            <div class="margindiv ">
+               <button class="butn"> Add <span>New Task</span></button>
+                 <div class="listtopdiv">
+                        <div class="texticondiv">
+                            <ul type="none">
+                                <li class="itdiv">  <i class="bi bi-envelope-fill "></i> My Tasks</a></li>
+                                <li class="itdiv"> <i class="bi bi-star"></i> Important</a></li>
+                                <li class="itdiv"><i class="bi bi-check2-circle"></i> completed</a></li>
+                                <li class="itdiv"><i class="bi bi-trash"></i>  deleted </a></li>
+                            </ul>
+                        </div>
+                 </div>
+
+                 <div class="listbuttomdiv">
+                    <div class="textcolordiv">
+                        <h3> Tags</h3>
+                        <ul type="none">
+                            <li class="itdivA" > <i class="bi bi-circle-fill" id="high"></i>  High</li>
+                            <li class="itdivA" ><i class="bi bi-circle-fill" id="medium"></i>  Medium</li>
+                            <li class="itdivA" ><i class="bi bi-circle-fill" id="low"></i> Low</li>
+                            <li class="itdivA"><i class="bi bi-circle-fill " id="blocked" ></i> Blocked</li>
+                            <li class="itdivA" ><i class="bi bi-circle-fill" id="update"></i> update</li>
+                        </ul>
+                    </div>
+             </div>
+            </div>
+        </section> 
+         <section class="textsection w-70">
+            <div class="searchbox">
+                <i class="bi bi-search"></i>
+                    <input type="text"  class="search" placeholder=" Search Courses" name="search" >
+            </div>
+            <div class="textcontent">
+            
+                  <div class="textli">  <div class="the"><i class="bi bi-star"></i>&nbsp; <i class="bi bi-check2-circle"></i>&nbsp; Learn about polymer </div> <div  class="theA">&nbsp;&nbsp; <button class="btcl" id="high">high</button> &nbsp;&nbsp;apr 10 &nbsp;&nbsp;<i class="bi bi-circle-fill"></i> </div> </div>
+                  <div class="textli">  <div class="the"><i class="bi bi-star-fill"></i>&nbsp; <i class="bi bi-check2-circle"></i>&nbsp; Learn about polymer </div> <div  class="theA">&nbsp;&nbsp; <button class="btcl" id="update">Update</button> &nbsp;&nbsp;apr 11 &nbsp;&nbsp;<i class="bi bi-circle-fill"></i> </div> </div>
+                  <div class="textli">  <div class="the"><i class="bi bi-star"></i>&nbsp; <i class="bi bi-check2-circle"></i>&nbsp; Learn about polymer </div> <div  class="theA">&nbsp;&nbsp; <button class="btcl" id="blocked">blocked</button>&nbsp;&nbsp;<button class="btcl" id="high">high</button> &nbsp;&nbsp;apr 13 &nbsp;&nbsp;<i class="bi bi-circle-fill"></i> </div> </div>
+                  <div class="textli">  <div class="the"><i class="bi bi-star"></i>&nbsp; <i class="bi bi-check2-circle"></i>&nbsp; Learn about polymer </div> <div  class="theA">&nbsp;&nbsp; <button class="btcl" id="low">low</button> &nbsp;&nbsp;apr 18 &nbsp;&nbsp;<i class="bi bi-circle-fill"></i> </div> </div>
+                  <div class="textli">  <div class="the"><i class="bi bi-star"></i>&nbsp; <i class="bi bi-circle"></i>&nbsp; Learn about polymer </div> <div  class="theA">&nbsp;&nbsp; <button class="btcl" id="low">low</button> &nbsp;&nbsp;apr 12 &nbsp;&nbsp;<i class="bi bi-circle-fill"></i> </div> </div>
+                  <div class="textli">  <div class="the"><i class="bi bi-star"></i>&nbsp; <i class="bi bi-check2-circle"></i>&nbsp; Learn about polymer </div> <div  class="theA">&nbsp;&nbsp; <button class="btcl" id="medium">medium</button> &nbsp;&nbsp;apr 20 &nbsp;&nbsp;<i class="bi bi-circle-fill"></i> </div> </div>
+                  <div class="textli">  <div class="the">
+                    <i class="bi bi-star"></i>&nbsp; 
+                    <i class="bi bi-circle"></i>&nbsp; Learn about polymer </div> <div  class="theA">&nbsp;&nbsp; <button class="btcl" id="high">high</button> &nbsp;&nbsp;apr 20 &nbsp;&nbsp;<i class="bi bi-circle-fill"></i> </div> </div>
+                 
+            
+            </div>
+         </section>
+
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+</body>
+</html>
+ 

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML Form Elements</title>
+    <style>
+        body{
+            font-family: Arial, sans-serif;
+        }
+    </style>
+</head>
+<body>
+
+
+    <!-- Simple Login Form -->
+    <h2>Simple Login Form</h2>
+    <main>
+        <form>
+                 <h3>Login page </h3>
+                <div class="emailDiv" >
+                <label for="email"> Email:</label>
+                <input type="email" id="email" name="email" placeholder="eg: anil@gmil.co" />
+                </div>              
+               <div class="passDiv"  >
+                <label for="password"> Password:</label>
+                <input type="password" id="password" name="password" placeholder="password"/>
+               </div>
+               <div class="regDiv">
+                <p>Not registered? <a href="#">create new user</a> </p>
+                </div>
+               <div class="btns">
+                <button type= "submit" onclick="alert('hello')"> Submit </button>
+             </div>
+        </form>
+
+    </main>
+    <!-- Login form with Table -->
+    <h2>Login Form with Table</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Company</th>
+                <th>Contact</th>
+                <th>Country</th>
+              </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Alfreds Futterkiste</td>
+                <td>Maria Anders</td>
+                <td>Germany</td>
+              </tr>
+              <tr>
+                <td>Centro comercial Moctezuma</td>
+                <td>Francisco Chang</td>
+                <td>Mexico</td>
+              </tr>
+        </tbody>
+    </table>
+    <!-- Select box with Options -->
+    <h2>Select Box with Options</h2>
+<select>
+    <option value="">--select--</option>
+    <option value="html">Html</option>
+    <option value="css">Css</option>
+    <option value="js">js</option>
+    <option value="ts">TS</option>
+</select>
+    <!-- Textarea box -->
+    <h2>Textarea box</h2>
+<textarea placeholder=" tell me yourself"></textarea>
+  
+<!-- Datalist (HTML5) -->
+    <h2>Datalist (HTML5)</h2>
+    <form action="/action_page.php" method="get">
+        <label for="browser">Choose your browser from the list:</label>
+        <input list="browsers" name="browser" id="browser" placeholder="enter browsers">
+        <datalist id="browsers">
+          <option value="Edge">
+          <option value="Firefox">
+          <option value="Chrome">
+          <option value="Opera">
+          <option value="Safari">
+        </datalist>
+        <input type="submit">
+      </form>
+      
+      <p><strong>Note:</strong> The datalist tag is not supported in Safari 12.0 (or earlier).</p>
+      
+
+</body>
+</html>

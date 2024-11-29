@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>JAVAscript</title>
+    <style>
+        main {
+            margin: 0;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    
+        form {
+            border-radius: 10px;
+            width: 300px;
+            padding: 25px;
+            box-shadow: 2px 2px 8px 2px rgba(0, 0, 0, 0.451);
+        }
+    
+        .emailDiv,.passDiv {
+            display: flex;
+            justify-content: space-between;
+            margin: 10px 0;
+            align-items: center;
+        }
+    
+        label {
+            width: 30%;
+        }
+    
+        #password, #email {
+            width: 100%;
+            border: 1px solid rgba(0, 0, 0, 0.25);
+            padding: 8px;
+            border-radius: 10px;
+            margin: 0 10px;
+        }
+    
+        #password:focus, #email:focus {
+    
+            border-color: rgba(234, 20, 20, 0.741);
+            outline: none;
+    
+        }
+    
+        form a {
+            text-decoration: none;
+        }
+    
+        form a:hover {
+            color: red;
+        }
+    
+        button {
+            border: none;
+            padding: 10px 25px;
+            border-radius: 5px;
+            background-color: rgba(0, 0, 255, 0.75);
+            color: rgba(255, 255, 255, 0.86);
+        }
+    
+        button:hover {
+            background-color: blue;
+            color: white;
+        }
+    
+        .btns {
+            text-align: end;
+            border-radius: 20px;
+        }
+    
+       
+    </style>
+</head>
+
+<body>
+    <main>
+        <form>
+            <h3>Login page  </h3>
+            <div class="emailDiv">
+                <label for="email"> Email:</label>
+                <input type="email" id="email" name="email" placeholder="eg: anil@gmil.co" />
+            </div>
+            <div class="passDiv">
+                <label for="password"> Password:</label>
+                <input type="password" id="password" name="password" placeholder="password" />
+            </div>
+            <div class="regDiv">
+                <p>Not registered? <a href="#">create new user</a> </p>
+            </div>
+            <div class="btns">
+                
+                <script src="./index.js"></script>
+                 <button  type="submit"> Submit </button>
+                 <button  type="submit" > cancel</button>
+            </div>
+            
+        </form>
+    
+    </main>
+    
+
+    
+</body>
+</html>

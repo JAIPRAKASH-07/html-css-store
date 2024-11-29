@@ -1,0 +1,133 @@
+Here’s a comprehensive list of **100 questions** asked in interviews across HTML, CSS, and JavaScript in the past year. These questions cover fundamental, intermediate, and advanced levels, grouped by topic.
+
+---
+
+### **HTML Questions**
+1. What is HTML5, and how does it differ from HTML4?  
+2. Explain the difference between `<section>` and `<div>`.  
+3. What is the purpose of the `doctype` declaration?  
+4. Define semantic HTML. Why is it important?  
+5. What are global attributes in HTML? Provide examples.  
+6. Explain the difference between `id` and `class`.  
+7. What are the new form input types in HTML5?  
+8. What is the difference between `<script>` with `defer` and `async` attributes?  
+9. How do you implement responsive design in HTML?  
+10. Explain the difference between inline, block, and inline-block elements.  
+11. What is the purpose of the `<meta>` tag in HTML?  
+12. Describe the `<canvas>` element in HTML5.  
+13. How do you add a favicon to a webpage?  
+14. What is the difference between `<strong>` and `<b>` tags?  
+15. Explain the difference between `<em>` and `<i>` tags.  
+16. How is an HTML5 document structured?  
+17. What is the purpose of the `alt` attribute in images?  
+18. How do you make an image accessible in HTML?  
+19. What is the difference between `<ol>` and `<ul>`?  
+20. How does the `<picture>` tag enhance image handling?
+
+---
+
+### **CSS Questions**
+21. What is the difference between `relative`, `absolute`, and `fixed` positioning in CSS?  
+22. Explain the box model in CSS.  
+23. What is the difference between `inline`, `inline-block`, and `block` display styles?  
+24. How does `z-index` work in CSS?  
+25. What are pseudo-classes in CSS? Give examples.  
+26. Explain CSS specificity and how it works.  
+27. What is the difference between `em` and `rem` units in CSS?  
+28. What are media queries, and how are they used?  
+29. How does Flexbox work in CSS?  
+30. What is the difference between `flex` and `grid` in CSS?  
+31. How do you use CSS variables? Provide an example.  
+32. Explain how animations are implemented in CSS.  
+33. What is the difference between `position: sticky` and `position: fixed`?  
+34. How do you optimize CSS for performance?  
+35. What is the difference between `visibility: hidden` and `display: none`?  
+36. How do you center a div in CSS?  
+37. What is the purpose of the `clip-path` property?  
+38. What are keyframes in CSS animations?  
+39. Explain how CSS inheritance works.  
+40. How do you handle browser-specific styles in CSS?
+
+---
+
+### **JavaScript Questions**
+41. What is the difference between `let`, `const`, and `var`?  
+42. Explain the concept of closures in JavaScript.  
+43. What is the difference between `==` and `===`?  
+44. How does the `this` keyword work in JavaScript?  
+45. What is a promise in JavaScript?  
+46. Explain the difference between synchronous and asynchronous programming.  
+47. What is the purpose of `async/await`?  
+48. What are arrow functions in JavaScript? How are they different from regular functions?  
+49. What is the DOM, and how does JavaScript interact with it?  
+50. How do event bubbling and event capturing work in JavaScript?  
+51. What is the difference between `null` and `undefined`?  
+52. Explain the concept of prototypes in JavaScript.  
+53. What are higher-order functions? Provide an example.  
+54. What is the purpose of the `reduce()` method?  
+55. How does the `map()` function differ from `forEach()`?  
+56. What is the difference between `call`, `apply`, and `bind`?  
+57. How does hoisting work in JavaScript?  
+58. What is the difference between `function` declaration and function expression?  
+59. Explain the concept of "currying" in JavaScript.  
+60. What are JavaScript modules? How are they used?  
+
+---
+
+### **Advanced JavaScript**
+61. What are Web APIs in JavaScript?  
+62. Explain the purpose of `fetch()` and how it works.  
+63. How does localStorage differ from sessionStorage?  
+64. What are ES6 classes? How do they differ from constructor functions?  
+65. What are JavaScript generators, and how do they work?  
+66. How does the event loop work in JavaScript?  
+67. What is the purpose of the `Symbol` data type?  
+68. How do you handle errors in JavaScript?  
+69. Explain the concept of memoization in JavaScript.  
+70. What is the difference between deep copy and shallow copy?  
+71. What is a JavaScript proxy, and how is it used?  
+72. Explain how `Object.freeze()` and `Object.seal()` work.  
+73. What is the purpose of the `setTimeout()` and `setInterval()` functions?  
+74. How does debouncing and throttling work in JavaScript?  
+75. What are WeakMap and WeakSet in JavaScript?  
+
+---
+
+### **React and Modern JavaScript Questions**
+76. What is React, and why is it used?  
+77. What is the difference between functional and class components in React?  
+78. Explain the use of hooks in React.  
+79. What is the purpose of the `useState` hook?  
+80. How does `useEffect` differ from lifecycle methods in class components?  
+81. What is Redux, and how does it work with React?  
+82. How does the virtual DOM improve performance in React?  
+83. What are React fragments, and why are they used?  
+84. How does server-side rendering (SSR) differ from client-side rendering (CSR)?  
+85. What are React portals, and how are they used?  
+
+---
+
+### **General Coding and Debugging**
+86. What tools do you use to debug JavaScript code?  
+87. How do you test JavaScript code for performance issues?  
+88. What are the best practices for optimizing CSS and JavaScript?  
+89. How do you ensure cross-browser compatibility in a web application?  
+90. What is the difference between inline and external JavaScript?  
+91. How do you handle errors in a React application?  
+92. What is CORS, and how do you handle it?  
+93. How do you implement lazy loading in JavaScript?  
+94. What are the security concerns for client-side JavaScript?  
+95. How do you manage state in a JavaScript application?  
+
+---
+
+### **Practical Coding Questions**
+96. Write a function to check if a string is a palindrome.  
+97. Create a responsive navigation bar using HTML and CSS.  
+98. Implement a JavaScript function to flatten an array.  
+99. Write a function to sort an array of numbers.  
+100. Create a simple React form with validation.  
+
+---
+
+Let me know if you'd like these in a Word document or further elaboration!

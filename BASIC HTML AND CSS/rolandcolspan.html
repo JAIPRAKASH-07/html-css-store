@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML Table TAG</title>
+    <style>
+        body{
+            font-family: 'Arial', sans-serif;
+             padding: 10px 20px;
+             margin: 10px 10px;
+             border: 10px 20px;
+             border-radius: 10px 10px;
+        }
+        table,tr,th{
+border: 2px solid black
+        }
+        td{
+border: 2px solid rgba(0, 0, 0, 0.464)
+
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Simple Table -->
+    <h3> Simple Table </h3>
+    <table>
+        <thead>
+            <tr>
+                <th rowspan="2">hello1</th>
+                <th rowspan="2">hello2</th>
+                <th rowspan="2">hello3</th>
+                <th colspan="3">hello4</th>
+              </tr>
+              <tr>
+                
+                <th>hello1</th>
+                <th>hello2</th>
+                <th>hello3</th>
+              </tr>
+        </thead>
+         <tbody>
+            <tr>
+                <td rowspan="2">1</td>
+                <td rowspan="2">2</td>
+                <td>3</td>
+                <td colspan="2", rowspan="2">a</td>
+                <td rowspan="2"> b</td>
+              </tr>
+              <tr>
+               
+                <td>33</td>
+                
+              </tr>
+              <tr>
+                <td>111</td>
+                <td>222</td>
+                <td>333</td>
+                <td>a</td>
+                <td>b</td>
+                <td>c</td>
+              </tr>
+              <tr>
+                <td>1111</td>
+                <td>2222</td>
+                <td>3333</td>
+                <td>a</td>
+                <td>b</td>
+                <td>c</td>
+              </tr>
+              <tr>
+                <td>11111</td>
+                <td>22222</td>
+                <td>33333</td>
+                <td>a</td>
+                <td colspan="2">b</td>
+                
+              </tr>
+              
+        </tbody>
+      </table> 
+
+</body>
+</html>
